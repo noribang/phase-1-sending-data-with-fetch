@@ -29,7 +29,7 @@ const configurationObject = {
 
 const destinationURL = "http://localhost:3000/users"
 
-fetch(destinationURL, configurationObject)
+return fetch(destinationURL, configurationObject)
     /*Response object from request convert to JSON.*/
     .then(function(response) {
         return response.json()
